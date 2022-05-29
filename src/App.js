@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar/Navbar'
+import {Button} from './components/Buttons'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <Navbar/>
+        <div className="home-image-container">
+          <div className="mask">
+            <div className="welcome-container">
+              <div className="welcome-header">
+                <h1>Welcome to</h1>
+                <h1>Impact Pest Pros</h1>
+              </div>
+              <div className="welcome-body">
+                <h3>Your Premier Pest Solutions</h3>
+              </div>
+            </div>
+            <div className='welcome-buttons'>
+              <Button buttonStyle={"btn--common"}>Services</Button>
+              <Button buttonStyle={"btn--common"}>About Us</Button>
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
   );
 }
 
