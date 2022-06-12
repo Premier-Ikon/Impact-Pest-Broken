@@ -5,7 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.home-image-container {
+.background-image {
     background-image: url("../../assets/HOME-IMAGE.png");
     background-size: cover;
     width: 100%;

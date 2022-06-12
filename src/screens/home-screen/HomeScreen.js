@@ -13,7 +13,7 @@ import SolutionsImage from '../../assets/SOLUTIONS-IMAGE.png'
 function HomeScreen() {
     return (
         <div className="HomeScreen">
-            <div className="home-image-container">
+            <div className="background-image">
                 <div className="mask">
                     <div className="welcome-container">
                         <div className="welcome-header">

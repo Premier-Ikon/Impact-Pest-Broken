@@ -4,7 +4,8 @@ import './Buttons.css'
 const STYLES = [
     'btn--primary',
     'btn--outline',
-    'btn--common'
+    'btn--common',
+    'btn--circle'
 ]
 
 const SIZES = [
@@ -17,7 +18,8 @@ export const Button = ({
                            type,
                            onClick,
                            buttonStyle,
-                           buttonSize
+                           buttonSize,
+                           buttonIcon
                        }) => {
 
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0]
@@ -27,6 +29,7 @@ export const Button = ({
     return (
         <button className={`btn ${checkButtonStyle} ${checkButtonSize}`} onClick={onClick} type={type}>
             {children}
+            <i className={buttonIcon}/>
         </button>
     )
 }
