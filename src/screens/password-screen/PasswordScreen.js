@@ -1,5 +1,4 @@
 import './PasswordScreen.css'
-import LowerElement from "../../components/LowerElement/LowerElement";
 import {Button} from "../../components/Buttons";
 
 
