@@ -77,3 +77,33 @@
     font-size: 20px;
     color: white;
 }
+
+.fa-comment {
+    color: white;
+    font-size: 40px;
+    align-self: center;
+}
+
+.fa-phone {
+    color: white;
+    font-size: 40px;
+    align-self: center;
+}
+
+.fa-paper-plane {
+    color: white;
+    font-size: 40px;
+    align-self: center;
+}
+
+.fa-instagram {
+    color: white;
+    font-size: 50px;
+    align-self: center;
+}
+
+.fa-facebook-f {
+    color: white;
+    font-size: 40px;
+    align-self: center;
+}
