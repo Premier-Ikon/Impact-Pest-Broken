@@ -43,12 +43,24 @@
     margin-top: 50px;
 }
 
-.offerings-header {
+.general-header {
     font-size: 30px;
     text-align: center;
 }
 
 .offerings-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.rodent-control-container {
+    margin-top: 100px;
+
+}
+
+.rodent-control-elements {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
