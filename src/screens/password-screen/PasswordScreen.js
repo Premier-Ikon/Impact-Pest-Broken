@@ -13,6 +13,7 @@ function PasswordScreen() {
                             <p className='large-text'>CONSTRUCTION</p>
                         </div>
                         <div className="central-text">
+                            <p className="small-text">IMPACT PEST PROS</p>
                             <p className="small-text">NEW AND IMPROVED COMING SOON!</p>
                         </div>
                     </div>
