@@ -107,3 +107,51 @@
     font-size: 40px;
     align-self: center;
 }
+
+@media screen and (max-width: 960px) {
+    .fa-comment {
+        color: white;
+        font-size: 30px;
+        align-self: center;
+    }
+
+    .fa-phone {
+        color: white;
+        font-size: 30px;
+        align-self: center;
+    }
+
+    .fa-paper-plane {
+        color: white;
+        font-size: 30px;
+        align-self: center;
+    }
+
+    .fa-instagram {
+        color: white;
+        font-size: 40px;
+        align-self: center;
+    }
+
+    .fa-facebook-f {
+        color: white;
+        font-size: 30px;
+        align-self: center;
+    }
+
+    .btn--circle {
+        height: 70px;
+        width: 70px;
+        border-radius: 100px;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+        background-color: transparent;
+    }
+
+}
+
+
